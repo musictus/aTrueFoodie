@@ -1,0 +1,138 @@
+#title {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#title:hover {
+    font-size: 55px;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+#searchSubmit:hover,
+#signUpSubmit:hover,
+#loginSubmit:hover {
+    background-color: #e89980;
+}
+
+
+
+h2,
+input {
+    font-family: 'Lobster';
+}
+
+#frontTitle {
+    font-size: 100px;
+    text-shadow: 2px 1px #e89980;
+}
+
+#knife {
+    display: none;
+}
+
+#centeringli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    width: 100%;
+    font-family: 'Merienda One', cursive;
+}
+
+.Our-container {
+    padding: 0;
+    margin: 0 10 0 10;
+    width: 100%;
+}
+
+.box-ours {
+    display: none;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+    min-height: 700px;
+}
+
+/* #true-result {
+  margin-left: 15%;
+  margin-right: 15%;
+} */
+.restaurantImg {
+    float: left;
+    width: 50%;
+    max-height: 500px;
+    margin-right: 25px;
+}
+
+#restaurant-Name,
+#restaurant-Location,
+#restaurant-Phone {
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
+}
+
+#restaurant-Name {
+    color: #e89980;
+}
+
+#google-rating {
+    color: royalblue;
+}
+
+#yelp-rating {
+    color: #d32223;
+}
+
+#true-rating {
+    color: #28a745
+}
+
+#crownColor:hover {
+    color: goldenrod;
+}
+
+#fishColor:hover {
+    color: #e89980;
+    font-size: 60px;
+}
+
+#forkColor:hover {
+    color: gray;
+    font-size: 60px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 765px) and (orientation : portrait) {
+    #frontTitle {
+        font-size: 60px;
+        text-shadow: 2px 1px #e89980;
+    }
+
+    .restaurantImg {
+        float: none;
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    #knife {
+        width: 30%;
+    }
+
+    #crownColor:hover {
+        color: goldenrod;
+    }
+    
+    #fishColor:hover {
+        color: #e89980;
+        font-size: 35px;
+    }
+    
+    #forkColor:hover {
+        color: gray;
+        font-size: 35px;
+    }
+}
